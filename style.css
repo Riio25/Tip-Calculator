@@ -1,0 +1,81 @@
+body {
+    background-color: #b3394b;
+  }
+  
+  p {
+    margin: .5em .55em;
+  }
+  
+  .calcTitle {
+    background-color: black;
+    color: white;
+    border-radius: 2%;
+  }
+  
+  .container {
+    background-color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    border-radius: 2%;
+  }
+  
+  .dollar {
+    display: inline-block;
+    padding-right: 0.5em;
+  }
+  
+  .group {
+    padding-bottom: 1em;
+  }
+  
+  #totalTip {
+    font-size: 1.5em;
+    margin-top: 0.15em;
+  }
+  
+  #totalTip::before {
+    content: "Tip amount";
+    font-size: .65em;
+    text-transform: uppercase;
+    display: block;
+  }
+  
+  #max {
+    font-size: 1.75em;
+    margin-top: 0.15em;
+  }
+  #max::before {
+    content: "Bill Total";
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+  }
+  
+  button {
+    margin-bottom: 1.25em;
+    text-transform: uppercase;
+    background: #cc1b35;
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: red;
+    border-bottom-color: #111;
+  }
+  
+  @media (max-width: 376px){
+    button {
+      width: 75px;
+      font-size: 10px;
+  }
+     .dollar {
+      display: none;
+    }
+  }
+  
+  
